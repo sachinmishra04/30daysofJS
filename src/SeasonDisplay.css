@@ -1,0 +1,54 @@
+/*
+ * Project:  class
+ * File:      SeasonDisplay.css
+ * Author:   Amit Mishra (amit.mishra+CODA@gmail.com)
+ * 
+ * Description:
+ * 
+ * Revision History:
+ *   2021-January-05: 
+ * 
+ * Copyright (c) 2021 Self
+ * 
+ * License:
+ *    
+ */
+
+.icon-left{
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+
+.icon-right{
+    position: absolute;
+    bottom:10px;
+    right:10px;
+}
+
+.season-display.winter i{
+    color: blue;
+}
+
+.season-display.summer i{
+    color: red;
+}
+
+.season-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.winter{
+    background-color: aliceblue;
+}
+
+.summer{
+    background-color: orange;
+}
+
+.border{
+    border: 4px solid red;
+}
